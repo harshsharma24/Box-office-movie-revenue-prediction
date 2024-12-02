@@ -61,8 +61,12 @@ scikit-learn
 xgboost
 matplotlib (for optional visualizations)
 Results
+
+Baseline RMSE (Mean Prediction): 3.120879515582972
 Random Forest RMSE: ~0.87
-XGBoost RMSE: ~1.15 (with default parameters; improved with GridSearchCV)
+Mean Squared Error (RMSE) on Training Data with XGBoost: 0.5695151501432907
+Root Mean Squared Error (RMSE) on Training Data: 1.9290674400113856 (with default parameters; improved with GridSearchCV)
+
 The project demonstrates how feature engineering and hyperparameter tuning can significantly improve model performance.
 
 Future Enhancements
